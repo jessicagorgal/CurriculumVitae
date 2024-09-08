@@ -1,0 +1,80 @@
+/* Font and background - Fuente y fondo de página*/
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+    background-color: #53aac7;
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+    margin: 0% 5% ;
+}
+
+/* Center the content on the page - Centrar el contenido en la p*/
+.movement > ul {
+  top:0;
+  list-style-type: none;
+  position: absolute;
+  display: inline;
+
+}
+
+.movement > ul li {
+  display:inline;
+  float: left;
+  margin: 10px;
+  background-color: rgb(15, 94, 117);
+  padding: 5px;
+}
+
+#page{
+    margin: 0% 20% ;
+}
+
+
+/* align title with photo - alinear la foto con el texto */
+#title{
+    padding: 27%;
+
+}
+
+
+/* modify photo - modificar foto */
+.picture{
+    float:left;
+    padding-right: 15px;
+    border-radius: 25px;
+    
+}
+
+/*modify list - modificar lista */
+a{
+    text-decoration: none;
+    color:#69cfff;
+}
+
+
+  /*modify list in diferents actions- modificar lista en diferentes acciones */
+a:hover {
+  color:#ff2c6d;
+}
+ 
+  .experience,.skills,.education,.socialmedia {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 10px;
+    float: left;
+
+  }
+th,td{
+  border-collapse: collapse;
+  padding: 5px;
+  margin: left 10px; ;
+}
+  a{
+    padding-top: 8%;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    color: white;
+  }
+
